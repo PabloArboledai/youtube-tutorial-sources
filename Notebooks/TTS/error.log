@@ -1,0 +1,11 @@
+[ColabBot] Iniciando con perfil de usuario (Headless)...
+C:\Users\allisoneverest09\Desktop\youtube-tutorial-sources\Notebooks\TTS\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:175
+                throw new Error(`The browser is already running for ${launchArgs.userDataDir}. Use a different \`userDataDir\` or stop the running browser first.`);
+                      ^
+
+Error: The browser is already running for C:/Users/allisoneverest09/AppData/Local/Google/Chrome/User Data. Use a different `userDataDir` or stop the running browser first.
+    at ChromeLauncher.launch (C:\Users\allisoneverest09\Desktop\youtube-tutorial-sources\Notebooks\TTS\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:175:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async launch (C:\Users\allisoneverest09\Desktop\youtube-tutorial-sources\Notebooks\TTS\colab_launch_final.js:7:21)
+
+Node.js v22.22.0
